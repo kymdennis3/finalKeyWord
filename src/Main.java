@@ -3,8 +3,11 @@ public class Main {
 
         //final - once a variable is declared it cant be changed
 
-        final double PI = 3.14;
+        int myInt = 24;
 
-        System.out.println(PI);
+        myInt = 100;
+        //final double PI = 3.14;
+
+        System.out.println(myInt);
     }
 }
